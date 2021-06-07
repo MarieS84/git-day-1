@@ -21,8 +21,9 @@ public class Main {
 
     public static void method2() {
 
-        for (int i = 10; i>10;i++){
+        for (int i = 10; i>0;i--){
             System.out.println(i);
+
         }
 
     }
@@ -32,7 +33,7 @@ public class Main {
         int x=10;
         int y=20;
         int sum = x+y;
-        System.out.println();
+        System.out.println(sum);
 
     }
 
