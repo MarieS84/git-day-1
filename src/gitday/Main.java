@@ -3,14 +3,17 @@ package gitday;
 public class Main {
 
     public static void main(String[] args) {
-        method(6);
+
+        method();
 
 
     }
 
-    public static void method(int a) {
+    public static void method() {
 
-        System.out.println(a+1);
+        for (int i = 0; i<10;i++){
+            System.out.println(i);
+        }
 
     }
 
