@@ -6,7 +6,6 @@ public class Main {
         method(6);
         System.out.println(method2());
 
-
     }
 
     public static void method(int a) {
