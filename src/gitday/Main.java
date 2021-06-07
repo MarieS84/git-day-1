@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         method();
+        method3();
 
 
     }
@@ -17,7 +18,17 @@ public class Main {
 
     }
 
-}
+    public static void method3() {
+
+        int x = 10;
+        int y = 20;
+        int sum = x+y;
+        System.out.println(sum);
+        }
+
+    }
+
+
 
 
 
